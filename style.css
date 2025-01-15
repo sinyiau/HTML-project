@@ -1,0 +1,52 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: 	#faecd2;
+    font-family: Georgia, Serif;
+    color: #533219
+  }
+  
+  h1{
+    font-size: 3em;
+    color: #c04525;
+    font-family: Palatino, Serif;
+  }
+  
+  #byline{
+    font-size: 1.1em;
+  }
+  
+  p{
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+  
+  .cutline {
+    font-size: 0.85em;
+  }
+  
+  .img-container {
+    width: 100%
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+  ul{
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+  
+  #content {
+    width: 80%;
+    margin: auto;
+  }
+  
+  @media (orientation:portrait) {
+    #content {
+      width: 95%;
+      margin: auto;
+    }
+  }
